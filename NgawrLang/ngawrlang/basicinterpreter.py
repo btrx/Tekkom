@@ -37,7 +37,13 @@ class BasicExecute:
 
         if node[0] == 'str':
             return node[1]
-
+        
+        if node[0] == 'print':
+            if node[1][0] == '"':
+                print(node[1][1:len(node[1])-1])
+            else:
+                return self.walkTree(node[1])
+            
         if node[0] == 'if_stmt':
             result = self.walkTree(node[1])
             if result:
@@ -64,10 +70,7 @@ class BasicExecute:
         elif node[0] == 'mul':
             return self.walkTree(node[1]) * self.walkTree(node[2])
         elif node[0] == 'div':
-            return self.walkTree(node[1]) / self.walkTree(node[2])
-
-        if node[0] == 'print':
-            return removeQuote(self.walkTree(node[1]))
+            return self.walkTree(node[1]) / self.walkTree(node[2]
 
         if node[0] == 'var_assign':
             self.env[node[1]] = self.walkTree(node[2])
