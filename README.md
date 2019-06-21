@@ -3,8 +3,9 @@
 - Doni Adi Kusuma (me)
 - Aina Rihadatul'Aisy Abiyya'
 - Ahmad Fawaid
-_the purpose is just only to fullfill the final project of course so please enjoy
-
+```
+the purpose is just only to fullfill the final project of course so please enjoy
+```
 ## Documentation
 
 Ngawr.lang is a Javanese based language. it use python on making process. 
