@@ -1,5 +1,5 @@
 # Tekkom NgawrLang
-Creators :
+- Creators :
 - Doni Adi Kusuma (me)
 - Aina Rihadatul'Aisy Abiyya'
 - Ahmad Fawaid
