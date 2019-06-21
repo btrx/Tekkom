@@ -1,8 +1,8 @@
 # Tekkom NgawrLang
-Creators
-Doni Adi Kusuma (me)
-Aina Rihadatul'Aisy Abiyya'
-Ahmad Fawaid
+Creators :
+- Doni Adi Kusuma (me)
+- Aina Rihadatul'Aisy Abiyya'
+- Ahmad Fawaid
 _the purpose is just only to fullfill the final project of course so please enjoy
 
 ## Documentation
@@ -15,7 +15,7 @@ Ngawr.lang is a Javanese based language. it use python on making process.
 - FOR == KANGGO
 - FUNCTION == FUNGSI
 - TO == KANGGE
-PRINT == CETAK
+- PRINT == CETAK
 
 ## How to Use
 1. Install python
